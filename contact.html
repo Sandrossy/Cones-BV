@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cones-style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="sub-page-head">
+        <div class="text-appear">
+            <h1>Cones.</h1>
+            <p>De beste kegels van het land.</p>
+        </div>
+        <img src="./images/sub-page-hero-img.jpg" alt="">
+    </div>
+    <!-- Header with nav menu -->
+    <header>
+        <a href="index.html" class="logo">
+            <span>Cones.</span>
+            <img src="images/logo2.png" alt="logo of a traffic cone">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="dropbtn" onclick="subMenu()">Info</a>
+                    <ul class="dropdown-content" id="myDropdown">
+                        <li>
+                            <a href="info.html#info-pricing">Prijzen</a>
+                        </li>
+                        <li>
+                            <a href="info.html#info-returns">Retour</a>
+                        </li>
+                        <li>
+                            <a href="info.html#info-infographic">Infograph</a>
+                        </li>
+                    </ul>
+                    <li>
+                        <a href="about.html">Over ons</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Galerij</a>
+                    </li>
+                    <li class="current">
+                        <a class="current" href="#">Contact</a>
+                    </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Contact text-->
+        <section class="column-style contact">
+            <h2>Contact</h2>
+            <p>Wij zijn aanwezig op onze locatie in Beverwijk tussen 08:00 en 17:00. Als u niet langs kunt komen of online een vraag wilt stellen vul dan het benedenstaande
+                <a href="#contact-form">formulier</a> in</p>
+        </section>
+        <!-- Map -->
+        <section class="map column-style">
+            <h3 class="head-style">Locatie</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19440.22282479336!2d4.649215944288255!3d52.47863139564129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5f07bc0d97b91%3A0x43b3a32205822774!2sBeverwijk!5e0!3m2!1sen!2snl!4v1600679650521!5m2!1sen!2snl"
+                allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+        <!-- Contact Form -->
+        <section class="contact-form-container column-style">
+            <h3 class="head-style">Contact formulier</h3>
+            <form name="contact" action="http://jkorpela.fi/cgi-bin/echo.cgi" method="POST" id="contact-form">
+                <ul>
+                    <li>
+                        <label for="voornaam">Voornaam: </label>
+                        <input id="voornaam" type="text" name="voornaam" size="50" required autofocus="" title="Vul hier uw voornaam in">
+                    </li>
+                    <li>
+                        <label for="achternaam">Achternaam: </label>
+                        <input id="achternaam" type="text" name="achternaam" size="50" required title="Vul hier uw achternaam in">
+                    </li>
+                    <li>
+                        <label for="email">E-mailadres: </label>
+                        <input type="email" id="email" name="email" size="50" title="Een e-mail adres bevat tenminste &eacute;&eacute;n @ gevolgd door een domein zoals .nl of .com - bijvoorbeeld: naam@achternaam.nl">
+                    </li>
+                    <li>
+                        <label for="tel">Telefoonnummer: </label>
+                        <input type="tel" id="tel" name="tel" size="11" title="Vul hier uw telefoonnummer in" minlength="10" maxlength="11">
+                    </li>
+                    <li>
+                        <label for="opmerkingen">Opmerkingen:</label>
+                        <textarea id="opmerkingen" title="Vul hier uw opmerking(en) in" name="opmerkingen" rows="8" cols="40" required form="contact-form"></textarea>
+                    </li>
+                    <li>
+                        <button type="submit" form="contact-form" value="Submit" title="klik hier om uw vakantie te boeken">verstuur</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="icon-container">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.snapchat.com/l/nl-nl/"><i class="fab fa-snapchat"></i></a>
+            <a href="https://nl.pinterest.com/"><i class="fab fa-pinterest"></i></a>
+        </div>
+        <p>All rights reserved &copy;2020 copyright</p>
+    </footer>
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>

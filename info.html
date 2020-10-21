@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cones-style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+</head>
+
+<body>
+    <div class="sub-page-head">
+        <div class="text-appear">
+            <h1>Cones.</h1>
+            <p>De beste kegels van het land.</p>
+        </div>
+        <img src="./images/sub-page-hero-img.jpg" alt="">
+    </div>
+    <!-- Header with nav menu -->
+    <header>
+        <a href="index.html" class="logo">
+            <span id="header-head">Cones.</span>
+            <img src="images/logo2.png" alt="logo of a traffic cone">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="current">
+                    <a class="dropbtn current" onclick="subMenu()">Info</a>
+                    <ul class="dropdown-content" id="myDropdown">
+                        <li>
+                            <a href="#info-pricing">Prijzen</a>
+                        </li>
+                        <li>
+                            <a href="#info-returns">Retour</a>
+                        </li>
+                        <li>
+                            <a href="#info-infographic">Infograph</a>
+                        </li>
+                    </ul>
+                    <li>
+                        <a href="about.html">Over ons</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Galerij</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Articles -->
+        <section class="column-style">
+            <h2>Informatie</h2>
+            <p>U kunt hier alle informatie vinden betreft prijzen en aankoopvoorwaarden.</p>
+        </section>
+        <section class="column-style">
+            <h3 class="head-style" id="info-pricing">Prijzen</h3>
+            <h4>Prijs op aanvraag</h4>
+            <p>Er zijn een aantal artikelen waarbij prijs op aanvraag staat. Dit heeft diverse redenen waaronder: valuta koersen en op en neer gaande prijzen voor grondstoffen. Wilt u de prijs weten? Stuur ons een mail of bel ons! Grote aantallen? Heeft
+                u een aanvraag waar het gaat om grote aantallen of om artikelen die niet in de webshop staan? Bel of mail ons voor een scherpe prijs! Backorders Backorders op bestellingen via de webshop waar langer als 5 dagen levertijd op zit daar wordt
+                u telefonisch of per mail van op de hoogte gebracht. Alle backorders worden altijd zonder verzendkosten verstuurd.
+            </p>
+            <!-- Table Content -->
+            <h4 id="prijslijst"> Prijslijst</h4>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Prijzen vanaf september 2020</th>
+                            <th>prijzen in &euro;</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Retroreflecterende signalisatiekegel met verzwaarbare voet</td>
+                            <td>74,50</td>
+                        </tr>
+                        <tr>
+                            <td>Zwart/gele verkeerskegels van pvc</td>
+                            <td>17,60</td>
+                        </tr>
+                        <tr>
+                            <td>Standaard verkeerskegels in felle kleuren</td>
+                            <td>29,-</td>
+                        </tr>
+                        <tr>
+                            <td>Niet-reflecterende signaleringskegel</td>
+                            <td>18,95</td>
+                        </tr>
+                        <tr>
+                            <td>Set met reflecterende pionnen voor bouwplaats</td>
+                            <td>116,-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="column-style">
+            <h3 class="head-style" id="info-returns">Retour Voorwaarden</h3>
+            <h4>Bedenktijd/retour</h4>
+            <p>Het kan wel eens voorkomen dat u een bestelling retour wilt sturen. Wellicht omdat het product toch niet bevalt of misschien is er een andere reden is waarom u de bestelling toch niet zou willen hebben. Wat de reden ook is, u heeft het recht
+                uw bestelling tot 14 dagen na ontvangst zonder opgave van reden te annuleren. U heeft na annulering nogmaals 14 dagen om uw product retour te sturen. U krijgt dan het volledige orderbedrag inclusief verzendkosten gecrediteerd. Enkel de
+                kosten voor retour van u thuis naar de webwinkel zijn voor eigen rekening. Deze kosten bedragen circa 7,25 per pakket, raadpleeg voor de exacte tarieven de website van uw vervoerder.
+            </p>
+        </section>
+        <!-- Infograph -->
+        <section class="infographic column-style">
+            <h3 class="head-style" id="info-infographic">Infographic</h3>
+            <p>Bekijk hier waarom de verkeerspion een van de meest iconische uitvinding is geweest.</p>
+            <img src="./images/info-images/infographic.png" alt="a infographic telling about the history of the traffic cone">
+        </section>
+    </main>
+    <footer>
+        <div class="icon-container">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.snapchat.com/l/nl-nl/"><i class="fab fa-snapchat"></i></a>
+            <a href="https://nl.pinterest.com/"><i class="fab fa-pinterest"></i></a>
+        </div>
+        <p>All rights reserved &copy;2020 copyright</p>
+    </footer>
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>
